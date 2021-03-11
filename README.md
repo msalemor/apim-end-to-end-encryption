@@ -28,9 +28,6 @@ Steps:
   - If you were using App Services for example, make sure the use a custom domain
 - If you are working with internal services, make sure to configure DNS. You will need entries for the portal and gateway which is the same internal IP address for the API Management.
 
-#### How it works
-
-The client maching making the call the through API should have all the required certificates installed. Once the requests lands on API Management, it will forward the requests onto the target API over https. Encryption and decryption occers by using the root and intermediate certificates.
 
 ### Self-signed certificates
 
@@ -50,3 +47,7 @@ Steps:
 - DNS resolution
 - install the intermediate and root certificates
 - If using NSGs on the APIM subnet, ensure that port TCP port 443 is open
+
+### How it works
+
+The client maching making the call the through API should have all the required certificates installed. Once the requests lands on API Management, it will forward the requests onto the target API over https. Encryption and decryption occers by using the root and intermediate certificates.
