@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- There's a requirement have TLS encryption with custom domains from the caller, through API management to the APIs
+- There's a requirement to have TLS encryption with custom domains from the caller through API Mnagement to the APIs
 - API Management deployed in internal mode
 
 ```bash
@@ -14,6 +14,8 @@ Left: http://gateway.company.com  Right: https://api.company.com
 - Azure API Management
 - Azure Private DNS
 - App Services
+
+## Solution
 
 ### Paid certificates or Let's Encrypt free certificates
 
