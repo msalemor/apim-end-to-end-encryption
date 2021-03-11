@@ -43,3 +43,9 @@ Steps:
 - Configure the APIs using ssl
   - If you were using App Services for example, make sure the use a custom domain
 - If you are working with internal services, make sure to configure DNS. You will need entries for the portal and gateway which is the same internal IP address for the API Management.
+
+### Troubleshooting
+
+- DNS resolution
+- install the intermediate and root certificates
+- If using NSGs on the APIM subnet, ensure that port TCP port 443 is open
