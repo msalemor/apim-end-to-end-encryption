@@ -43,6 +43,7 @@ Steps:
 - Configure the APIs using ssl
   - If you were using App Services for example, make sure the use a custom domain
 - If you are working with internal services, make sure to configure DNS. You will need entries for the portal and gateway which is the same internal IP address for the API Management.
+- Install the root CA on the client machines.
 
 ### Troubleshooting
 
@@ -52,4 +53,4 @@ Steps:
 
 ### How it works
 
-The client maching making the call the through API should have all the required certificates installed. Once the requests lands on API Management, it will forward the requests onto the target API over https. Encryption and decryption occers by using the root and intermediate certificates.
+The client maching making the call to API Management has all the required certificates. Once the requests lands on API Management, it will forward the requests onto the target API over https. Encryption and decryption occurs by using the root and intermediate certificates installed on API Management.
