@@ -22,6 +22,7 @@ Steps:
 - Obtain your certificates or [generate](https://medium.com/@akitikkx/generate-a-free-ssl-certificate-with-lets-encrypt-and-certbot-53eb71c56788) your certificates using let's encrypt
 - Deploy the certificate and update the portal and gateway domains in API Management
 - Deploy the root and intermediate certificates to API Management
+> **Tip:** [How to get the root and intermedicate certificates for the backed authentication](https://docs.microsoft.com/en-us/azure/application-gateway/certificates-for-backend-authentication)
 - Deploy the client certificates to the APIs
 - Configure the APIs using ssl.
   - If you were using App Services for example, make sure the use a custom domain
