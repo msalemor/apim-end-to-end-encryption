@@ -1,4 +1,4 @@
-# Azure API Management End-to-end encryption
+# Azure API Management End-to-end TLS Encryption
 
 ## Requirements
 
