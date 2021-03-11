@@ -25,7 +25,7 @@ Steps:
 - Deploy the certificate and update the portal and gateway domains in API Management
 - Deploy the root and intermediate certificates to API Management
 > **Tip:** [How to get the root and intermedicate certificates for the backed authentication](https://docs.microsoft.com/en-us/azure/application-gateway/certificates-for-backend-authentication)
-- Deploy the client certificates to the APIs
+- Deploy the custom domain to App Service
 - Configure the APIs using ssl.
   - If you were using App Services for example, make sure the use a custom domain
 - If you are working with internal services, make sure to configure DNS. You will need entries for the portal and gateway which is the same internal IP address for the API Management.
@@ -44,6 +44,7 @@ Steps:
   - If you were using App Services for example, make sure the use a custom domain
 - If you are working with internal services, make sure to configure DNS. You will need entries for the portal and gateway which is the same internal IP address for the API Management.
 - Install the root CA on the client machines.
+- Deploy the custom domain to App Service using 
 
 ### Troubleshooting
 
